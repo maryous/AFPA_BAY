@@ -1,0 +1,77 @@
+  body 
+  {
+       color: black;
+	border:1px solid black;
+	background-image:linear-gradient(maroon 0, grey 40px);
+  }
+  .list
+  {
+
+    margin: 0.5em;
+    padding: 1em;
+    display: inline-block;
+    width: 20%;
+
+   }
+header 
+{
+    font-family: "Times New Roman", Georgia, Serif;
+display: flex;
+justify-content: center;
+background: maroon;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1c1de', endColorstr='#879ca8',GradientType=0 );
+height: 60px;
+position: sticky;
+top: 0;
+box-shadow: 15px 10px 12px #eeeeee;
+}    
+ .list 
+ {
+     
+    margin: 0.5em;
+    padding: 1em;
+    display: inline-block;
+    width: 20%;
+
+
+}
+
+li {
+     border: 1px solid black;
+    margin: 2.5em;
+    padding: 3em;
+    display: inline-block;
+    width: 185%;
+
+
+}
+.case :hover:not(:first-child) {
+    position: relative;
+    z-index: 100;
+    word-wrap: break-word;
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    cursor: text;
+}
+
+.form1
+{
+   font-size: 60%;
+    margin: 32px 98em 0;
+    
+}
+.add 
+{
+    border: 1px solid black;
+    text-align: center;
+    whith :10%;
+    height: 10%;
+}
+
+.alert {
+    color:red;
+}
